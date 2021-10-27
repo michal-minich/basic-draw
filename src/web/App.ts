@@ -1,7 +1,7 @@
-import { stat } from "fs";
 
 const canvas = document.getElementById("canvas") as HTMLCanvasElement;
 const ctx = canvas.getContext("2d")!;
+resizeCanvasToDisplaySize(ctx.canvas);
 
 
 type State = "none" | "begin";
@@ -17,7 +17,7 @@ export function move(x: number, y: number): void {
 }
 
 
-export function line(x: number, y: number): void {
+export function ln(x: number, y: number): void {
     ctx.lineTo(x, y);
     if (state === "none")
         ctx.stroke();
@@ -45,4 +45,19 @@ export function end(): void {
 function err(msg: string): never {
     alert(msg);
     throw new Error(msg);
+}
+
+function resizeCanvasToDisplaySize(canvas: HTMLCanvasElement) {
+    // look up the size the canvas is being displayed
+    const width = canvas.clientWidth;
+    const height = canvas.clientHeight;
+
+    // If it's resolution does not match change it
+    if (canvas.width !== width || canvas.height !== height) {
+        canvas.width = width;
+        canvas.height = height;
+        return true;
+    }
+
+    return false;
 }
