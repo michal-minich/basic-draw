@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "strictNullChecks": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitOverride": true,
+        /*"exactOptionalPropertyTypes": true,*/
+        "incremental": true,
+        "sourceMap": false,
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es6",
+            "esnext"
+        ]
+    }
+}

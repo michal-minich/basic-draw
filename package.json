@@ -1,0 +1,27 @@
+{
+    "name": "basic-draw",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "scripts": {
+        "tools-build": "tsc -p src/tools/tsconfig.json",
+        "import-run": "node dist/tools/ImportJsAdder.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/michal-minich/basic-draw.git"
+    },
+    "keywords": [
+        "todo",
+        "tasks"
+    ],
+    "author": "Michal Minich",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "@types/node": "^16.11.6",
+        "@typescript-eslint/eslint-plugin": "^5.2.0",
+        "@typescript-eslint/parser": "^5.2.0",
+        "eslint-plugin-import": "^2.25.2",
+        "typescript": "^4.4.4"
+    }
+}

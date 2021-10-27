@@ -1,0 +1,210 @@
+{
+    "editor.rulers": [
+        80
+    ],
+    "files.exclude": {
+        "**/node_modules/": true,
+        "**/package-lock.json": true,
+    },
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": true,
+        "source.organizeImports": false,
+    },
+    "workbench.colorCustomizations": {
+        "[Monokai Vibrant]": {
+            "statusBar.background": "#000000",
+            "statusBar.foreground": "#5e656b",
+            "editorRuler.foreground": "#1b1b1b",
+            "editorIndentGuide.background": "#161616",
+            "editorIndentGuide.activeBackground": "#272727",
+            "tab.inactiveBackground": "#272727",
+            "tab.border": "#272727",
+            "tab.activeBackground": "#161616",
+            "scrollbar.shadow": "#161616",
+            "editor.background": "#161616",
+            "editorGroupHeader.tabsBackground": "#272727",
+            "editorGroup.border": "#000000",
+            "editor.selectionBackground": "#435279",
+            "editorCodeLens.foreground": "#5c5c5c",
+            "sideBar.background": "#0f0f0f",
+            "sash.hoverBorder": "#313131",
+            "titleBar.activeBackground": "#272727",
+            "titleBar.inactiveBackground": "#272727",
+            "activityBar.activeBackground": "#0f0f0f",
+            "activityBar.background": "#272727",
+            "sideBarSectionHeader.background": "#272727",
+            "editorSuggestWidget.background": "#0e0e0e",
+            "editorSuggestWidget.foreground": "#c2c2c2",
+            "editorSuggestWidget.selectedBackground": "#363636",
+            "editorSuggestWidget.highlightForeground": "#5ca8ff",
+            "list.activeSelectionBackground": "#272727",
+            "list.inactiveSelectionBackground": "#272727",
+            "list.hoverBackground": "#272727",
+            "menu.background": "#3d3d3d",
+            "menu.selectionBackground": "#8d8d8d",
+            "scrollbarSlider.background": "#272727",
+            "scrollbarSlider.hoverBackground": "#3d3d3d",
+            "scrollbarSlider.activeBackground": "#535353",
+            "input.border": "#a5a5a5",
+            "list.warningForeground": "#c7c7c7",
+            "list.errorForeground": "#cc796e",
+            "gitDecoration.modifiedResourceForeground": "#c7c7c7",
+            "gitDecoration.addedResourceForeground": "#c7c7c7",
+            "gitDecoration.stageModifiedResourceForeground": "#c7c7c7",
+            "gitDecoration.ignoredResourceForeground": "#c7c7c7",
+            "gitDecoration.renamedResourceForeground": "#c7c7c7",
+            "gitDecoration.untrackedResourceForeground": "#c7c7c7"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Monokai Vibrant]": {
+            //"functions": "#2ed658",
+            //"keywords": "#ff4f4f",
+            "strings": "#ffbc8f",
+            "textMateRules": [
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                        //"foreground": "#ff6bf8"
+                        "foreground": "#ffffff"
+                    }
+                },
+                {
+                    "scope": "constant.numeric",
+                    "settings": {
+                        "foreground": "#50cdff"
+                    }
+                },
+                {
+                    "scope": "storage.type",
+                    "settings": {
+                        "foreground": "#ff56a5"
+                    }
+                },
+                {
+                    "scope": "variable.other",
+                    "settings": {
+                        "foreground": "#fdc03b"
+                    }
+                },
+                {
+                    "scope": "entity.name.function",
+                    "settings": {
+                        "foreground": "#57d461"
+                    }
+                },
+                {
+                    "scope": "punctuation.separator",
+                    "settings": {
+                        "foreground": "#b8b8b8"
+                    }
+                },
+                {
+                    "scope": "punctuation.terminator",
+                    "settings": {
+                        "foreground": "#b8b8b8"
+                    }
+                },
+                {
+                    "scope": "punctuation.separator.continuation",
+                    "settings": {
+                        "foreground": "#b8b8b8"
+                    }
+                },
+                {
+                    "scope": "meta.block",
+                    "settings": {
+                        "foreground": "#b8b8b8"
+                    }
+                },
+                {
+                    "scope": "variable.other.readwrite",
+                    "settings": {
+                        "foreground": "#edf068"
+                    }
+                },
+            ]
+        }
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "diffEditor.renderSideBySide": false,
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.tree.indent": 16,
+    "explorer.openEditors.visible": 0,
+    "search.collapseResults": "alwaysExpand",
+    "editor.formatOnSave": true,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.lineNumbers": "off",
+    "files.autoSave": "onFocusChange",
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "references.preferredLocation": "view",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.revealIfOpen": true,
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.fontWeight": "bold",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        },
+    ],
+    "vscode_custom_css.imports": [
+        "file://C:/vscode/vscode.css"
+    ],
+    "scm.countBadge": "off",
+    "eslint.run": "onSave",
+    "problems.showCurrentInStatus": true,
+    "explorer.autoReveal": "focusNoScroll",
+    "vscode_custom_css.statusbar": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.autoClosingOvertype": "never",
+    "editor.autoSurround": "never",
+    "explorer.decorations.badges": false,
+    "cSpell.words": [
+        "Michal",
+        "Minich",
+        "iface",
+        "readonly",
+        "respawn",
+        "sendmail",
+        "unfollow",
+        "unrelate",
+        "websupport",
+        "wwwroot"
+    ],
+    "workbench.editor.decorations.badges": false,
+    "css.lint.emptyRules": "ignore",
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.universalSelector": "warning",
+    "outline.showVariables": false,
+    "outline.showStrings": false,
+    "outline.showOperators": false,
+    "outline.showNumbers": false,
+    "outline.showNull": false,
+    "outline.showEvents": false,
+    "outline.showEnums": false,
+    "outline.showEnumMembers": false,
+    "outline.showBooleans": false,
+    "outline.showObjects": false,
+    "outline.showProperties": false,
+    "versionlens.suggestions.showOnStartup": true,
+    "editor.folding": false,
+    "editor.glyphMargin": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.enabled": false,
+    "editor.suggest.localityBonus": true,
+    "workbench.editor.showIcons": false,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.editor.tabSizing": "shrink",
+}

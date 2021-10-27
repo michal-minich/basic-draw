@@ -1,0 +1,5 @@
+.editor .tabs-and-actions-container .actions-container,
+.editor .editor-actions,
+.panel .actions-container .action-item:nth-child(3) {
+    display: none !important;
+}
